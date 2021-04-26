@@ -37,4 +37,8 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
 }
