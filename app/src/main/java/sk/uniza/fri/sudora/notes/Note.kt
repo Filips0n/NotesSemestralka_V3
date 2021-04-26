@@ -1,4 +1,5 @@
 package sk.uniza.fri.sudora.notes
 
-class Note {
+data class Note(var title:String = "",
+var text: String = "") {
 }
